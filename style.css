@@ -311,8 +311,8 @@ html{
 .skills .skill .barra-skill .progreso {
   background-color: #f7465b;
  position:absolute;
-  top: -10px;
-  left: 0px;
+  top: 0;
+  left: 0;
   height: 8px;
 }
 
@@ -324,7 +324,7 @@ html{
   border-radius:40px;
   line-height: 40px;
   text-align:center;
-  top: -5px;
+  top: -12px;
   right: -5px;
   font-size: 15px;
 
