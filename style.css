@@ -779,7 +779,7 @@ html{
 
 }
 
-@media screen and(max-width:700px) {
+@media screen and(max-width:980px) {
     .sobremi .fila{
         display: block;
     }
