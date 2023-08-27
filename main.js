@@ -36,3 +36,10 @@ function efectoHabilidades(){
  window.onscroll = function(){
      efectoHabilidades();
  }
+
+ const buttonCv = document.getElementById('buttonCv');
+
+ const cvFile = 'file:///C:/Users/juans/resume%20Juan%20Segundo%20Arceluz%20-%20copia.pdf';
+
+ buttonCv.setAttribute('download', 'file:///C:/Users/juans/resume%20Juan%20Segundo%20Arceluz%20-%20copia.pdf');
+ buttonCv.setAttribute('href', cvFile);
